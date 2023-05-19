@@ -47,7 +47,7 @@ chatgpt_chain = LLMChain(
 def message_handler(message, say, logger):
     print(message)
     
-    output = CHESSGPT.query(message)
+    output = CHESSGPT.query(message['text'])
     say(output)
     
 
