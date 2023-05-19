@@ -1,3 +1,9 @@
 langchain
 openai
 slack_bolt
+unstructured
+chromadb
+Cython
+tiktoken
+pdf2image
+pytesseract
